@@ -55,21 +55,21 @@
                             </div>
                         </li>
                         <li>
-                            <img src="./src/images/home/carousel/la-fiesta.png" alt="" uk-cover>
+                            <img src="./src/images/home/carousel/slide3.jpg" alt="La Fiesta sushi roll" uk-cover>
                             <div class="uk-overlay uk-position-center uk-text-center text-carousel">
                                 <h3 class="uk-margin-remove">La Fiesta sushi roll</h3>
                                 <p class="uk-margin-remove">Zwarte rijst, Avocado en jalapeno met bovenop<br/> zwarte bonen puree en kefir limoen chips.</p>
                             </div>
                         </li>
                         <li>
-                            <img src="./src/images/home/carousel/sunny_side.png" alt="" uk-cover>
+                            <img src="./src/images/home/carousel/slide2.jpg" alt="Sunny Side sushi roll" uk-cover>
                             <div class="uk-overlay uk-position-center uk-text-center text-carousel">
                                 <h3 class="uk-margin-remove">Sunny Side sushi roll</h3>
                                 <p class="uk-margin-remove">Zwarte rijst, gesmoorde venkel, zongedroogde<br/> tomaat, bovenop flespompoen en amandel pesto</p>
                             </div>
                         </li>
                         <li>
-                            <img src="./src/images/home/carousel/chic_pea.png" alt="" uk-cover>
+                            <img src="./src/images/home/carousel/slide1.jpg" alt="Chic Pea sushi roll" uk-cover>
                             <div class="uk-overlay uk-position-center uk-text-center text-carousel">
                                 <h3 class="uk-margin-remove">Chic Pea sushi roll</h3>
                                 <p class="uk-margin-remove">Zwarte rijst, geroosterde aubergine, artisjok,<br/> bovenop saffraan kikkererwtpuree.</p>
@@ -203,14 +203,14 @@
             Contact
         </div>
 
-        <div class="uk-child-width-1-2 uk-grid-match uk-flex-middle" uk-grid>
+        <div class="uk-child-width-1-2 uk-grid-match" uk-grid>
             <div class="uk-width-expand">
                 <div class="contact_card uk-text-center">
                     <img src="./src/images/contact/reglandingpage.png">
                 </div>
             </div>
 
-            <div class="uk-width-2-5">
+            <div class="uk-width-1-3">
                 <div class="contact_card uk-overflow-auto">
                     <table class="uk-table uk-table-divider">
                         <thead>
@@ -256,30 +256,33 @@
             </div>
         </div>
 
-        <div class="uk-child-width-1-3 uk-grid-match" uk-grid>
-            <div>
-                <div class="contact_card uk-overflow-auto">
-                    <p>
-                        Burgemeester Mooijstraat 17<br/>
-                        1901 EP, Castricum<br/>
-                        T 0251 - 652 386<br/>
-                        info@beyondsushi.stateu.org
-                    </p>
+        <div class="uk-child-width-1-2 uk-grid-match" uk-grid>
+            <div class="uk-width-expand">
+                <div class="uk-child-width-1-2 uk-grid-match" uk-grid>
+                    <div>
+                        <div class="contact_card uk-overflow-auto">
+                            <p>
+                                Burgemeester Mooijstraat 17<br/>
+                                1901 EP, Castricum<br/>
+                                T 0251 - 652 386<br/>
+                                info@beyondsushi.stateu.org
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="contact_card uk-overflow-auto">
+                            <p>
+                                Geesterduinweg 39<br/>
+                                1902 EJ, Castricum<br/>
+                                T 0251 - 654683<br/>
+                                info@beyondsushi.stateu.org
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div>
-                <div class="contact_card uk-overflow-auto">
-                    <p>
-                        Geesterduinweg 39<br/>
-                        1902 EJ, Castricum<br/>
-                        T 0251 - 654683<br/>
-                        info@beyondsushi.stateu.org
-                    </p>
-                </div>
-            </div>
-
-            <div>
+            <div class="uk-width-1-3">
                 <div class="contact_card uk-overflow-auto">
                     <p>
                         Middenwaard 44<br/>

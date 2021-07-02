@@ -2,6 +2,21 @@
   margin: 0;
 }
 
+li:hover {
+  background: #e7e7e7;
+}
+
+.uk-nav li:hover {
+  background: #0c7bbd;
+}
+.uk-nav li:hover a {
+  color: #fff;
+}
+
+.uk-nav li {
+  padding: 10px 15px;
+}
+
 body, html {
   font-family: "Raleway", sans-serif;
   background: #e0ddd9;
@@ -23,11 +38,11 @@ body, html {
   font-size: 18px;
 }
 .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li:hover > a, .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a.uk-open, .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a:focus {
-  color: rgba(255, 255, 255, 0.7);
+  color: #008e00;
 }
 
 .uk-navbar-dropdown {
-  padding: 15px;
+  padding: 0;
   background: #fff;
   margin-top: 65px !important;
 }
@@ -41,22 +56,22 @@ body, html {
 
 #sushi {
   background: #e0a1b2;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding-top: 27.5px;
+  padding-bottom: 27.5px;
   scroll-margin-top: 80px;
 }
 
 #wrapsandsoup {
   background: #c5e0ed;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding-top: 27.5px;
+  padding-bottom: 27.5px;
   scroll-margin-top: 80px;
 }
 
 #contact {
   background: #f5833b;
-  padding-top: 55px;
-  padding-bottom: 55px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   scroll-margin-top: 80px;
 }
 
@@ -126,7 +141,7 @@ body, html {
   border-radius: 5px;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  font-size: 20px;
+  font-size: 30px;
   border: 1px solid #dddddd;
   margin-bottom: 25px;
 }
@@ -142,17 +157,23 @@ body, html {
 }
 .contact_card img {
   border-radius: 5px;
+  height: 335px;
 }
 .contact_card .uk-table th {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   color: #fff;
   font-size: 16px;
   text-transform: none;
+  padding: 10px 5px;
 }
 
 .other-time {
   margin-top: -10px;
   margin-left: 10px;
+}
+
+.uk-table td {
+  padding: 5px;
 }
 
 #footer {
