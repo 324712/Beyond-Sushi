@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0",
+    "sourcename": "zero.png",
+    "photoname": "Nieuwe smaken",
+    "photo_info": "Deze week!"
+  },
+  {
+    "id": "1",
+    "sourcename": "la-fiesta.png",
+    "photoname": "La Fiesta sushi roll",
+    "photo_info": "Zwarte rijst, Avocado en jalapeno met bovenop zwarte bonen puree en kefir limoen chips."
+  },
+  {
+    "id": "2",
+    "sourcename": "sunny_side.png",
+    "photoname": "Sunny Side sushi roll",
+    "photo_info": "Zwarte rijst, gesmoorde venkel, zongedroogde tomaat, bovenop flespompoen en amandel pesto"
+  },
+  {
+    "id": "3",
+    "sourcename": "chic_pea.png",
+    "photoname": "Chic Pea sushi roll",
+    "photo_info": "Zwarte rijst, geroosterde aubergine, artisjok, bovenop saffraan kikkererwtpuree."
+  }
+]

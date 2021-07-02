@@ -1,0 +1,200 @@
+$body-bg-color: rgba(224, 221, 217, 1);
+
+$navbar-bg-color: #95CB6E;
+$navbar-text-color: rgba(255,255,255,1);
+$navbar-text-hover-color: rgba(255,255,255,.7);
+
+$home-bg-color: rgba(242, 225, 155, 1);
+$sushi-bg-color: rgba(224, 161, 178, 1);
+$wrapsandsoup-bg-color: rgba(197, 224, 237, 1);
+$contact-bg-color: rgba(245, 131, 59, 1);
+
+$carousel-h3-color: rgba(137, 56, 56, 1);
+$carousel-p-color: rgba(73, 227, 46, 1);
+$carousel-text-color-slide-1: rgba(255, 255, 255, 1);
+
+$card-text-color: rgba(81, 67, 11,1);
+
+$contact-head-bg: rgba(247, 162, 109,1);
+
+* {
+  margin: 0;
+}
+
+body, html {
+  font-family: "Raleway", sans-serif;
+  background: $body-bg-color;
+  height: 100%;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: $navbar-bg-color;
+
+  .uk-logo {
+    color: $navbar-text-color;
+    font-family: "Raleway", sans-serif;
+    margin-right: 10px;
+  }
+
+  .uk-navbar-nav>li>a {
+    color: $navbar-text-color;
+    text-transform: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+  }
+
+  .uk-navbar-nav>li:hover>a, .uk-navbar-nav>li>a.uk-open, .uk-navbar-nav>li>a:focus {
+    color: $navbar-text-hover-color;
+  }
+}
+
+.uk-navbar-dropdown {
+  padding: 15px;
+  background: #fff;
+  margin-top: 65px !important;
+}
+
+#home {
+  background: $home-bg-color;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  scroll-margin-top: 80px;
+}
+
+#sushi {
+  background: $sushi-bg-color;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  scroll-margin-top: 80px;
+}
+
+#wrapsandsoup {
+  background: $wrapsandsoup-bg-color;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  scroll-margin-top: 80px;
+}
+
+#contact {
+  background: $contact-bg-color;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  scroll-margin-top: 80px;
+}
+
+.text-carousel {
+  text-shadow: 1px 1px 1px rgba(0,0,0,.8);
+  h3 {
+    color: $carousel-h3-color;
+    font-size: 35px;
+  }
+
+  p {
+    color: $carousel-p-color;
+    font-size: 25px;
+  }
+
+  &.slide-1 {
+    h3, p {
+      color: $carousel-text-color-slide-1;
+    }
+  }
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  margin-bottom: 25px;
+
+  .card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color: $card-text-color;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    font-weight: 600;
+    font-size: 18px;
+
+    &:first-child {
+      border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+    }
+  }
+
+  .card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+
+    &:last-child {
+      border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+    }
+  }
+
+  .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+  }
+}
+
+.contact_head {
+  padding: 20px;
+  background: $contact-head-bg;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  font-size: 20px;
+  border: 1px solid #dddddd;
+  margin-bottom: 25px;
+}
+
+.contact_card {
+  padding: 20px;
+  background: $contact-head-bg;
+  border-radius: 5px;
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  border: 1px solid #dddddd;
+  margin-bottom: 25px;
+
+  img {
+    border-radius: 5px;
+  }
+
+  .uk-table th {
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    color: #fff;
+    font-size: 16px;
+    text-transform: none;
+  }
+}
+
+.other-time {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+#footer {
+  width: 100%;
+  padding: 20px 0;
+  color: $navbar-text-color;
+  background: $navbar-bg-color;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  font-size: 20px;
+  position: fixed;
+  bottom: 0;
+}
