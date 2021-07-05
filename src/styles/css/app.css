@@ -30,15 +30,26 @@ body, html {
   color: white;
   font-family: "Raleway", sans-serif;
   margin-right: 10px;
+  font-weight: 600;
+  font-size: 32px;
 }
 .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a {
   color: white;
   text-transform: none;
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 500;
 }
 .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li:hover > a, .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a.uk-open, .uk-navbar-container:not(.uk-navbar-transparent) .uk-navbar-nav > li > a:focus {
   color: #008e00;
+}
+
+.uk-slideshow-items {
+  border-radius: 5px;
+}
+
+.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+  min-height: 60px;
 }
 
 .uk-navbar-dropdown {
@@ -72,7 +83,7 @@ body, html {
   background: #f5833b;
   padding-top: 45px;
   padding-bottom: 45px;
-  scroll-margin-top: 80px;
+  scroll-margin-top: 50px;
 }
 
 .text-carousel {
@@ -114,7 +125,7 @@ body, html {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
   color: #51430b;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 18px;
 }
 .card .card-header:first-child {
@@ -124,6 +135,10 @@ body, html {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
+  font-weight: 500;
+  color: #51430b;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 17px;
 }
 .card .card-footer:last-child {
   border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
@@ -144,6 +159,7 @@ body, html {
   font-size: 30px;
   border: 1px solid #dddddd;
   margin-bottom: 25px;
+  font-weight: 600;
 }
 
 .contact_card {
@@ -165,6 +181,7 @@ body, html {
   font-size: 16px;
   text-transform: none;
   padding: 10px 5px;
+  font-weight: 600;
 }
 
 .other-time {
@@ -185,6 +202,68 @@ body, html {
   font-size: 20px;
   position: fixed;
   bottom: 0;
+}
+
+@media (min-width: 500px) {
+  .mext-s {
+    display: block !important;
+  }
+
+  .mext-xl {
+    display: none !important;
+  }
+}
+@media (min-width: 576px) {
+  .mext-s {
+    display: block !important;
+  }
+
+  .mext-xl {
+    display: none !important;
+  }
+}
+@media (min-width: 960px) {
+  .uk-visible\@xl {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) {
+  .mext-xl {
+    display: block !important;
+  }
+
+  .mext-s {
+    display: none !important;
+  }
+
+  #sushi .card-footer {
+    min-height: 51px !important;
+    display: table !important;
+    font-size: 15px !important;
+  }
+  #sushi .card-footer span {
+    display: table-cell !important;
+    vertical-align: middle !important;
+  }
+
+  #wrapsandsoup .card-footer {
+    min-height: 51px !important;
+    display: table !important;
+    font-size: 15px !important;
+  }
+  #wrapsandsoup .card-footer span {
+    display: table-cell !important;
+    vertical-align: middle !important;
+  }
+}
+@media (min-width: 1300px) {
+  .mext-xl {
+    display: block !important;
+  }
+
+  .mext-s {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
