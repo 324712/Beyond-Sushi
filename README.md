@@ -1,12 +1,12 @@
 # Beyond Sushi
-Front-end Webdevelopment examen, keuzedeel leerjaar 1.
+Elaboration of the three-part front-end exam of the elective front-end development.
 
-### Cijfers
+### Grades
 
-Het volledige eindcijfer is uitgekomen op een **10**.
+The final grade for the exam came out to a **10**.
 
-| Opdracht | Omschrijving | Cijfer | Beoordeeld door |
+| Assignment | Description | Grade | Reviewed by |
 | -------- | ------------ | ------ | --------------- |
-| Opracht 1 | Bouwen Front-end | 10 | A. de Ruijter |
-| Opdracht 2 | Responsive | 10 | A. de Ruijter |
-| Opdracht 3 | SEO en optimalisatie | 10 | A. de Ruijter |
+| Assignment 1 | Build the site | 10 | A. de Ruijter |
+| Assignment 2 | Responsive | 10 | A. de Ruijter |
+| Assignment 3 | SEO and optimalisation | 10 | A. de Ruijter |
