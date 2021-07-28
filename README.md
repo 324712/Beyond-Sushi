@@ -1,5 +1,5 @@
 # Beyond Sushi
-Elaboration of the three-part front-end exam of the elective front-end development.
+Elaboration of the three-part front-end exam of the elective front-end development. Please note that this template was not chosen by me, this was copied exactly from the images we had to use. The use of color is very ugly, but totally not a personal choice.
 
 ### Grades
 
